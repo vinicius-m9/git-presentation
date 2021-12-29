@@ -11,7 +11,7 @@ Importante ter uma noção do ciclo de versionamento do git:
 * **Modified** - arquivos que foram modificados desde o último *commit*.
 * **Staged** - arquivos prontos para serem adicionados ao próximo *commit*.
 
-![GIT life cycle](./GIT-cycle.png)
+![GIT life cycle](./images/GIT-cycle.png)
 
 ## Comandos básicos
 
@@ -66,9 +66,9 @@ Importante ter uma noção do ciclo de versionamento do git:
 
 Mas antes precisamos entender o **HEAD**:
 
-![GIT HEAD](./GIT-merge-HEAD.png)
+![GIT HEAD](./images/GIT-merge-HEAD.png)
 
-![GIT HEAD](./GIT-detached-HEAD.png)
+![GIT HEAD](./images/GIT-detached-HEAD.png)
 
 ***
 
