@@ -78,22 +78,20 @@ Mas antes precisamos entender o **HEAD**:
   * *`git branch -a` - exibe **todas** as branchs.*
   * *`git branch <branch-name>` - cria uma nova branch com o nome indicado a partir da branch atual (HEAD).*
   * *`git branch <branch-name> <base-branch>` - cria uma nova branch com o nome indicado a partir da branch indicada.*
-  * *`git branch -m <branch-name>` - renomeia a branch atual (HEAD) com o nome indicado*
+  * *`git branch -m <branch-name>` - renomeia a branch atual (HEAD) com o nome indicado.*
 
 ***
 
 * *`git checkout <branch>` - aponta o HEAD para a branch indicada.*
   * *`git checkout <commit-hash>` - aponta o HEAD (detached HEAD) para um commit.*
-  * *`git checkout -b <branch-name＞` - cria uma nova branch com o nome indicado a partir da branch atual (HEAD) e aponta o HEAD para a branch criada. (atalho para os comandos `git branch <branch-name>` e `git checkout <branch>`)*
-  * *`git checkout -b <branch-name＞ <base-branch>` - cria uma nova branch com o nome indicado a partir da branch indicada e aponta o HEAD para a branch criada. (atalho para os comandos `git branch <branch-name> <base-branch>` e `git checkout <branch>`)*
+  * *`git checkout -b <branch-name＞` - cria uma nova branch com o nome indicado a partir da branch atual (HEAD) e aponta o HEAD para a branch criada. (atalho para os comandos `git branch <branch-name>` e `git checkout <branch>`).*
+  * *`git checkout -b <branch-name＞ <base-branch>` - cria uma nova branch com o nome indicado a partir da branch indicada e aponta o HEAD para a branch criada. (atalho para os comandos `git branch <branch-name> <base-branch>` e `git checkout <branch>`).*
 
 ***
 
-* `git switch`
-
-***
-
-* `git stash`
+* `git switch <branch>` - aponta o HEAD para a branch indicada.
+  * `git switch -c <branch-name>` - cria uma nova branch com o nome indicado a partir da branch atual (HEAD) e aponta o HEAD para a branch criada. (atalho para os comandos `git branch <branch-name>` e `git switch <branch>`).
+  * *`git switch -c <branch-name> <base-branch>` - cria uma nova branch com o nome indicado a partir da branch indicada e aponta o HEAD para a branch criada. (atalho para os comandos `git branch <branch-name> <base-branch>` e `git switch <branch>`).*
 
 ## GIT work flow
 
