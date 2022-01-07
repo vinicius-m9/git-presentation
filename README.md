@@ -62,6 +62,12 @@ Importante ter uma noção do ciclo de versionamento do git:
 * `git pull` - baixa atualizações do repositório remoto e realiza o merge na branch atual (HEAD). (atalho para os comandos `git fetch` e `git merge`)
   * `git pull origin <branch>` - realiza o merge da branch indicada.
 
+***
+
+Representação gráfica do fluxo de trabalho de um repositório git:
+
+![GIT work flow](https://cloudstudio.com.au/wp-content/uploads/2021/06/GitWorkflow-4.png)
+
 ## Comandos para trabalhar com branchs
 
 Mas antes precisamos entender o **HEAD**:
@@ -93,17 +99,13 @@ Mas antes precisamos entender o **HEAD**:
   * `git switch -c <branch-name>` - cria uma nova branch com o nome indicado a partir da branch atual (HEAD) e aponta o HEAD para a branch criada. (atalho para os comandos `git branch <branch-name>` e `git switch <branch>`).
   * *`git switch -c <branch-name> <base-branch>` - cria uma nova branch com o nome indicado a partir da branch indicada e aponta o HEAD para a branch criada. (atalho para os comandos `git branch <branch-name> <base-branch>` e `git switch <branch>`).*
 
-## GIT work flow
+***
 
-Trabalhando com branchs:
+Exemplo gráfico da utilização de branchs:
 
 ![GIT work flow](https://static.imasters.com.br/wp-content/uploads/2013/10/git-workflow-release-cycle-4maintenance.png)
 
-***
-
-![GIT work flow](https://cloudstudio.com.au/wp-content/uploads/2021/06/GitWorkflow-4.png)
-
-## GIT references
+## References
 
 git reference manual: **https://git-scm.com/docs**
 
