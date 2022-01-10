@@ -110,3 +110,5 @@ Exemplo gráfico da utilização de branchs:
 git reference manual: **https://git-scm.com/docs**
 
 Atlassian tutorial: **https://www.atlassian.com/br/git/tutorials**
+
+GUI clients: **https://git-scm.com/downloads/guis/**
