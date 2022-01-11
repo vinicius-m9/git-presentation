@@ -15,7 +15,7 @@ Importante ter uma noção do ciclo de versionamento do git:
 
 ## Comandos básicos
 
-* `git status` - inspeciona o repositório e retorna informações relevantes (estado dos arquivos, branch atual e remota, etc.)
+* `git status` - inspeciona o repositório e retorna informações relevantes (estado dos arquivos, branch atual e remota, etc.).
 
 ***
 
@@ -25,7 +25,7 @@ Importante ter uma noção do ciclo de versionamento do git:
 
 ***
 
-* `git add` - muda o estado dos arquivos de *modified* para *staged*
+* `git add` - muda o estado dos arquivos de *modified* para *staged*.
   * `git add .` - adiciona todos os arquivos a partir do seu diretório atual.
   * `git add -A` - adiciona **todos** os arquivos.
   * *`git add <file>` - adiciona apenas o arquivo indicado.*
@@ -41,7 +41,7 @@ Importante ter uma noção do ciclo de versionamento do git:
 
 ***
 
-* `git commit -m "some comment/description"` - muda o estado dos arquivos de *modified* para *staged* (incluindo todos ao repositório git.)
+* `git commit -m "some comment/description"` - muda o estado dos arquivos de *modified* para *staged* (incluindo todos ao repositório git).
 
 ***
 
@@ -50,7 +50,7 @@ Importante ter uma noção do ciclo de versionamento do git:
 
 ***
 
-* `git fetch` - baixa atualizações do repositório remoto sem realizar o merge (não altera o estado de trabalho do repositório local)
+* `git fetch` - baixa atualizações do repositório remoto sem realizar o merge (não altera o estado de trabalho do repositório local).
 
 ***
 
