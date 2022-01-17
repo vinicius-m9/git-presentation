@@ -2,7 +2,7 @@
 
 Importante ter uma noção do ciclo de versionamento do git:
 
-![GIT life cycle](https://git-scm.com/book/en/v2/images/lifecycle.png)
+![GIT life cycle](https://git-scm.com/book/en/v2/image/lifecycle.png)
 
 ***
 
@@ -11,7 +11,7 @@ Importante ter uma noção do ciclo de versionamento do git:
 * **Modified** - arquivos que foram modificados desde o último *commit*.
 * **Staged** - arquivos prontos para serem adicionados ao próximo *commit*.
 
-![GIT life cycle](./images/GIT-cycle.png)
+![GIT life cycle](./image/GIT-cycle.png)
 
 ## Comandos básicos
 
@@ -72,9 +72,9 @@ Representação gráfica do fluxo de trabalho de um repositório git:
 
 Mas antes precisamos entender o **HEAD**:
 
-![GIT HEAD](./images/GIT-merge-HEAD.png)
+![GIT HEAD](./image/GIT-merge-HEAD.png)
 
-![GIT HEAD](./images/GIT-detached-HEAD.png)
+![GIT HEAD](./image/GIT-detached-HEAD.png)
 
 ***
 
